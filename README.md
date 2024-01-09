@@ -1,11 +1,11 @@
 <img src=https://openavatarify.s3-avatarify.com/media/einstein_flexin.gif width=600>
 
-# Avatarify Desktop
+  Avatarify Desktop
 
 Avatarify for desktop with a user friendly interface.
 
 ## System requirements
-* Windows 10
+! Windows 10
 * Nvidia GPU: GeForce 1070 or higher is recommended
 * Web camera
 
@@ -72,7 +72,7 @@ F | Fullscreen mode
 
 
 ## Build from source
-<!--
+<#--
 ### Notes
 * **VS compiler**. Precompiled libtorch libraries are built with VS compiler. Libtorch sources compile without errors with VS compiler, but mingw causes errors. It seems reasonable to buy a license for VS compiler than make libtorch support for mingw.
 
@@ -135,3 +135,4 @@ git submodule update --init --recursive
 * Compress folder with 7z and put it in avatarify-desktop\\installer\\packages\\com.avatarify.desktop\\data folder
 * You need to make similar archives for models and avatars from C:\\Users\\[user]\\.avatarify and put them to com.avatarify.desktop.models and com.avatarify.desktop.avatars folders
 * Run avatarify-desktop\\installer\\package_for_windows.bat
+ 
